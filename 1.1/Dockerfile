@@ -1,5 +1,5 @@
 FROM tomcat:8
-MAINTAINER "jiayong <superjiayong@qq.com>"
+LABEL version="1.1" maintainer="jiayong <superjiayong@qq.com>"
 ADD server.xml /usr/local/tomcat/conf/
 ADD tomcat-users.xml /usr/local/tomcat/conf/
 ADD manager.xml /usr/local/tomcat/conf/Catalina/localhost/
